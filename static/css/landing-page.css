@@ -195,13 +195,23 @@ p.copyright {
     }
 }
 
-.intro-image {
+.intro-image-out {
     height: 100%;
     min-height: 380px;
     margin-top: 20px;
-    background: url(../img/intro-bg.JPG) no-repeat center center;
     background-size: 280px;
+	
+}
+
+.intro-image-in {
+	widows: 100%;
+	padding-bot: 50%;
+}
+
+.intro-image {
+	background: url(../img/intro-bg.JPG) no-repeat center center;
 	clip-path: circle(30% at center);
+	filter: drop-shadow(0 0 20 20 #000);
 }
 
 .github-btn {
