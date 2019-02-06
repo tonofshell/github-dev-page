@@ -204,8 +204,8 @@ p.copyright {
 }
 
 .intro-image-in {
-	widows: 100%;
-	padding-bot: 50%;
+	width: 100%;
+	padding-bottom: 50%;
 }
 
 .intro-image {
