@@ -201,9 +201,7 @@ p.copyright {
     margin-top: 20px;
     background: url(../img/intro-bg.JPG) no-repeat center center;
     background-size: 280px;
-	position: relative;
-  	overflow: hidden;
-  	border-radius: 50%;
+	clip-path: circle(30% at center);
 }
 
 .github-btn {
