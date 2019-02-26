@@ -220,7 +220,6 @@ p.copyright {
     height: 100%;
     width: 100%;
     max-width: 300px;
-    background: url({{Site.Params.logo.url}}) no-repeat center center;
     background-size: contain;
     clip-path: circle(40% at center);
 }
