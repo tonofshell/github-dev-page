@@ -1,6 +1,6 @@
-# Github project landing page
+# Github Developer Page
 
-Github landing page is a theme for [Hugo](http://gohugo.io) to create landing pages for github projects. This theme is based on [landing-page-hugo](https://github.com/crakjie/landing-page-hugo)
+Github Developer Page is a theme for [Hugo](http://gohugo.io) to create landing pages for developers to showcase their work on GitHub. This theme is based on [Swiftline](https://github.com/nsomar/Swiftline)
 
 # Demo
 A demo can be find here [Swiftline](http://swiftline.github.io)
@@ -9,7 +9,7 @@ A demo can be find here [Swiftline](http://swiftline.github.io)
 ![screenshot](https://raw.githubusercontent.com/nsomar/github-project-landing-page/master/images/screenshot.png)
 
 # Costumization
-Check [config.toml](https://github.com/nsomar/github-project-landing-page/blob/master/exampleSite/config.toml) for available configuration. 
+Check [config.toml](https://github.com/nsomar/github-project-landing-page/blob/master/exampleSite/config.toml) for available configuration.
 Below is a description for each of them.
 
 Project description appears after project name
@@ -30,13 +30,13 @@ Project description appears after project name
 
 `github_user_name` github author account name
 `github_project_name` github project name
-```    
+```
     github_project_name = "swiftline"
     github_user_name = "swiftline"
 ```
 
 Theme colors
-```    
+```
     first_color="#f8f8f8"
     first_border_color="#e7e7e7"
     first_text_color="#333"
@@ -51,4 +51,3 @@ Theme colors
     header_link_hover_color="rgb(51, 51, 51)"
 
 ```
-
