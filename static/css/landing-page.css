@@ -21,6 +21,15 @@ h6 {
     font-family: -apple-system-headline, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
+.row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -64,7 +73,7 @@ h6 {
 }
 
 .container {
-    width: 900px;
+    width: 100%;
     line-height: 1.2em;
 }
 
@@ -188,7 +197,7 @@ p.copyright {
     }
 
     .container {
-        width: 80%;
+        width: 900px;
     }
 
     .intro-image-out {
